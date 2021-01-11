@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-right: 8px;
+}
+
+.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
+  float: right;
+}
+
+.ant-upload-list-item-image {
+  display: none;
+}
+
+.ant-radio-button-wrapper {
+  margin-right: 20px;
+}
